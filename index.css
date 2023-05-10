@@ -1,0 +1,59 @@
+.body{
+    margin: 0px auto;
+    width: 70%;
+    clear: both;
+}
+
+.main-body{
+    background-color:rgb(158, 183, 194);
+}
+
+main{
+    background-color:#111617 ;
+   width: 500px;
+   height: 1000px; 
+   position: absolute;
+}
+
+.my-image{
+width: 400px;
+height: 600px;
+margin: 40px;
+}
+
+.name{
+    position: relative;
+    left: 75px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.info{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    right: 30px;
+    color: rgba(255, 255, 255, 0.3);
+    font-style: italic;
+}
+
+
+.right-side{
+    background-color: white;
+    position: relative;
+    width: 700px;
+    height: 1000px;
+    left: 745px;
+}
+
+.id{
+    position: relative;
+    left: 27px;
+    top: 10px;
+    color: rgb(8, 8, 43);
+}
+
+.side-p{
+    margin: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
