@@ -1,0 +1,120 @@
+.body {
+    margin: 0px auto;
+    width: 70%;
+    clear: both;
+    height: 1000px;
+}
+
+.ilgi-sayfası{
+ 
+        background-color: #000000;
+        background-image: url(/assets/photos/Back\ Ground.png);
+        height: 700px;
+
+}
+
+main {
+    background-color: #000000;
+    width: 500px;
+    height: 1000px;
+    position: absolute;
+}
+
+
+.nav-link:hover {
+    border-bottom: 2px solid #390101;
+    color: #ba0a0a !important;
+
+}
+
+
+
+
+
+
+.ilgi-sayfası main{
+    margin: 50px auto;
+    background: url(fotoğraflar/grey-noise.jpg);
+    box-shadow: 0px 0px 5px 2px #000;
+    color: white;
+    width: 80%;
+    height: 950px;
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}
+
+.ilgi-sayfası p{
+    color: black;
+}
+
+.sonuc{
+    background: rgb(0, 0, 0,.2);
+    position: relative;
+    top: 50px;
+    margin: 10px auto;
+    height: 350px;
+    width: 90%;
+    box-shadow: 0px 0px 5px 2px #000;
+}
+.sonuc img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.buttons{
+   
+    margin: 20px auto;
+    position: relative;
+    top: 50px;
+    left: 150px;
+    width: 90%;
+    border-radius: 5px;
+}
+button{
+    background: rgb(0, 0, 0,.5);
+    box-shadow: 0px 0px 5px 2px #000;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    width: 100%; 
+}
+
+button:active{
+    transform: scale(0.98);
+}
+
+button:focus{
+    outline: none;
+}
+
+.ilgi-sayfası p{
+    position: relative;
+    top: 100px;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+
+
+#köpek_sonucu{
+    border: 2px solid #390101;
+    position: relative;
+    left: 150px;
+}
+
+#kedi_sonucu{
+    border: 2px solid #390101;
+    position: relative;
+    left: 150px;
+}
+
+
